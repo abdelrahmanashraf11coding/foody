@@ -349,7 +349,11 @@ footer span {
 /* media query start  */
 
 @media screen and (max-width: 768px) {
-  
+  html,
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
   header {
     flex-direction: column;
     gap: 10px;
@@ -365,7 +369,7 @@ footer span {
     padding: 0px 20px;
     text-align: center;
   }
-  .layout p{
+  .layout p {
     font-size: 16px;
     /* margin: 20px; */
     width: 100%;
@@ -375,3 +379,5 @@ footer span {
     width: 100%;
   }
 }
+
+/* media query end  */
