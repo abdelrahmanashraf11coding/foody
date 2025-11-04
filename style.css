@@ -351,6 +351,7 @@ footer span {
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
+    text-align: center;
   }
   nav {
     display: none;
@@ -362,6 +363,11 @@ footer span {
     width: 100%;
     padding: 0px 20px;
     text-align: center;
+  }
+  .layout p{
+    font-size: 16px;
+    /* margin: 20px; */
+    width: 100%;
   }
 
   .container-form {
